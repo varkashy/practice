@@ -1,69 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="3" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb627ed7-2b98-4313-8a74-1dbe18762681" name="Default Changelist" comment="" />
+    <list default="true" id="8e3ce6bf-bd84-447b-9b33-793422d29dfc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
-  </component>
-  <component name="ProjectId" id="1ZAoaxqCrRAcaTUAj0wirpjfflw" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
+  <component name="ProjectId" id="1ZoROFOkGXDKalK4KzA1WoqV5qE" />
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.TraversalTree">
-    <configuration name="SearchInsertDeleteTrie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructures.trie.SearchInsertDeleteTrie" />
-      <module name="Practice" />
+  <component name="RunManager">
+    <configuration name="TestBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.varkashy.tree.test.TestBinaryTree" />
+      <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructures.trie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToDo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ToDo" />
-      <module name="Practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TraversalTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructures.tree.TraversalTree" />
-      <module name="Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructures.tree.*" />
+          <option name="PATTERN" value="com.varkashy.tree.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,136 +41,39 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TraversalTree" />
-        <item itemvalue="Application.SearchInsertDeleteTrie" />
-        <item itemvalue="Application.ToDo" />
+        <item itemvalue="Application.TestBinaryTree" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bb627ed7-2b98-4313-8a74-1dbe18762681" name="Default Changelist" comment="" />
-      <created>1584291326467</created>
+      <changelist id="8e3ce6bf-bd84-447b-9b33-793422d29dfc" name="Default Changelist" comment="" />
+      <created>1585503426258</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584291326467</updated>
-      <workItem from="1584291330065" duration="17631000" />
-      <workItem from="1584377942474" duration="2567000" />
-      <workItem from="1584895377987" duration="499000" />
+      <updated>1585503426258</updated>
     </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="2592" y="356" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1584295887197">
+    <state width="1865" height="267" key="GridCell.Tab.0.bottom" timestamp="1585503453737">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2592" y="356" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584295887197" />
-    <state width="426" height="546" key="DebuggerActiveHint" timestamp="1584306210653">
+    <state width="1865" height="267" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585503453737" />
+    <state width="1865" height="267" key="GridCell.Tab.0.center" timestamp="1585503453737">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="426" height="546" key="DebuggerActiveHint/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584306210653" />
-    <state width="1867" height="336" key="GridCell.Tab.0.bottom" timestamp="1584316705612">
+    <state width="1865" height="267" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585503453737" />
+    <state width="1865" height="267" key="GridCell.Tab.0.left" timestamp="1585503453736">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="336" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584316705612" />
-    <state width="1867" height="336" key="GridCell.Tab.0.center" timestamp="1584316705612">
+    <state width="1865" height="267" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585503453736" />
+    <state width="1865" height="267" key="GridCell.Tab.0.right" timestamp="1585503453737">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="336" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584316705612" />
-    <state width="1867" height="336" key="GridCell.Tab.0.left" timestamp="1584316705611">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1867" height="336" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584316705611" />
-    <state width="1867" height="336" key="GridCell.Tab.0.right" timestamp="1584316705612">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1867" height="336" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584316705612" />
-    <state width="1867" height="336" key="GridCell.Tab.1.bottom" timestamp="1584316705612">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1867" height="336" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584316705612" />
-    <state width="1867" height="336" key="GridCell.Tab.1.center" timestamp="1584316705612">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1867" height="336" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584316705612" />
-    <state width="1867" height="336" key="GridCell.Tab.1.left" timestamp="1584316705612">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1867" height="336" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584316705612" />
-    <state width="1867" height="336" key="GridCell.Tab.1.right" timestamp="1584316705612">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1867" height="336" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584316705612" />
-    <state x="2381" y="162" key="SettingsEditor" timestamp="1584291436939">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2381" y="162" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584291436939" />
-    <state x="272" y="117" key="com.intellij.ide.util.TipDialog" timestamp="1584895726769">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="272" y="117" key="com.intellij.ide.util.TipDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1584895726769" />
-    <state x="272" y="117" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584377942614" />
-    <state x="2547" y="217" key="extract.method.dialog" timestamp="1584314409840">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2547" y="217" key="extract.method.dialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584314409840" />
-    <state x="0" y="0" key="new project wizard" timestamp="1584378081564">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="0" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1584378081564" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dataStructures/trie/SearchInsertDeleteTrie.java</url>
-          <line>143</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dataStructures/trie/SearchInsertDeleteTrie.java</url>
-          <line>154</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dataStructures/trie/SearchInsertDeleteTrie.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dataStructures/trie/SearchInsertDeleteTrie.java</url>
-          <line>108</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dataStructures/trie/SearchInsertDeleteTrie.java</url>
-          <line>116</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dataStructures/tree/TraversalTree.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="1865" height="267" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1585503453737" />
   </component>
 </project>

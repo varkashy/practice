@@ -5,6 +5,7 @@ import com.varkashy.tree.BinaryTree;
 public class TestBinaryTree {
     public static void main(String[] args) {
         BinaryTree root = BinaryTree.createBinaryTreeFromArray(new int[]{1, 2, 3, 4, 15, 19, 27});
+        testLeastCommonAncestors(root);
         BinaryTree.findTopKKeys(root,4);
         testNextMaxKey(root,18);
         testHeightOfBinaryTree(root);
@@ -12,6 +13,17 @@ public class TestBinaryTree {
         testSearch(root,new int[]{3,11});
         testInsertIntoBinaryTree(root, new int[]{-1,11});
         testDeleteFromBinaryTree(root, new int[]{4,7,11});
+    }
+
+    private static void testLeastCommonAncestors(BinaryTree root) {
+        BinaryTree leastCommonAncestors = BinaryTree.findLeastCommonAncestors(3, 19, root);
+        System.out.println(leastCommonAncestors.getData());
+        leastCommonAncestors = BinaryTree.findLeastCommonAncestors(3, 4, root);
+        System.out.println(leastCommonAncestors.getData());
+        leastCommonAncestors = BinaryTree.findLeastCommonAncestors(19, 27, root);
+        System.out.println(leastCommonAncestors.getData());
+        leastCommonAncestors = BinaryTree.findLeastCommonAncestors(1, 3, root);
+        System.out.println(leastCommonAncestors.getData());
     }
 
     private static void testNextMaxKey(BinaryTree root, int givenKey) {

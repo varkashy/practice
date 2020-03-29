@@ -213,4 +213,32 @@ public class BinaryTree {
     public int getData() {
         return this.data;
     }
+
+    public static BinaryTree findLeastCommonAncestors(int key1, int key2, BinaryTree root){
+        /*
+        Search for key 1 and key 2 in the binary tree, if not found , return null as no ancestor found
+         */
+        BinaryTree key1Node = searchInBinaryTree(root,key1);
+        BinaryTree key2Node = searchInBinaryTree(root,key2);
+        if(key1Node == null || key2Node == null){
+            return null;
+        }
+        return findLeastCommonAncestorsForTree(root,key1,key2);
+
+    }
+
+    private static BinaryTree findLeastCommonAncestorsForTree(BinaryTree root, int key1, int key2) {
+        if(root.data == key1 || root.data == key2 || (root.data > key1 && root.data < key2)||
+                (root.data < key1 && root.data > key2)){
+            return root;
+        }
+        else{
+            if(root.data < key1 && root.data < key2){
+               return findLeastCommonAncestorsForTree(root.rightNode,key1,key2);
+            }
+            else{
+                return findLeastCommonAncestorsForTree(root.leftNode,key1,key2);
+            }
+        }
+    }
 }

@@ -5,6 +5,7 @@ import com.varkashy.tree.BinaryTree;
 public class TestBinaryTree {
     public static void main(String[] args) {
         BinaryTree root = BinaryTree.createBinaryTreeFromArray(new int[]{1, 2, 3, 4, 15, 19, 27});
+        BinaryTree.findTopKKeys(root,4);
         testNextMaxKey(root,18);
         testHeightOfBinaryTree(root);
         testTraversal(root);

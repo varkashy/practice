@@ -1,5 +1,6 @@
 package com.varkashy.tree;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -20,6 +21,34 @@ public class BinaryTree {
         inOrderTraversal(root.leftNode);
         System.out.println(root.data);
         inOrderTraversal(root.rightNode);
+    }
+
+    public static void reverseInOrderTraversal(BinaryTree root){
+        if(root == null){
+            return;
+        }
+        reverseInOrderTraversal(root.rightNode);
+        System.out.println(root.data);
+        reverseInOrderTraversal(root.leftNode);
+    }
+
+    public static void findTopKKeys(BinaryTree root, int valueOfK){
+        List<BinaryTree> kMaxNodes = new ArrayList<>();
+        reverseInOrderTraversalWithLimit(root,kMaxNodes,valueOfK);
+    }
+
+    private static void reverseInOrderTraversalWithLimit(BinaryTree root, List<BinaryTree> kMaxNodes, int valueOfK) {
+
+        if(root == null||kMaxNodes.size()>=valueOfK){
+            return;
+        }
+
+        reverseInOrderTraversalWithLimit(root.rightNode,kMaxNodes,valueOfK);
+        if(kMaxNodes.size() < valueOfK) {
+            System.out.println(root.data);
+            kMaxNodes.add(root);
+            reverseInOrderTraversalWithLimit(root.leftNode,kMaxNodes,valueOfK);
+        }
     }
 
     public static void preOrderTraversal(BinaryTree root){
@@ -121,10 +150,10 @@ public class BinaryTree {
             return root;
         }
         if(data>root.data){
-           return  searchInBinaryTree(root.rightNode,data);
+            return  searchInBinaryTree(root.rightNode,data);
         }
         else{
-          return  searchInBinaryTree(root.leftNode,data);
+            return  searchInBinaryTree(root.leftNode,data);
         }
     }
     private static BinaryTree findMinimumNode(BinaryTree root) {
@@ -169,12 +198,12 @@ public class BinaryTree {
         }
         if(givenKey <= root.data){
             BinaryTree nextCandidate = firstMaxKeyForGivenValue(root.leftNode,givenKey);
-           if(nextCandidate != null && root.data < nextCandidate.data){
-               return nextCandidate;
-           }
-           else{
-               return root;
-           }
+            if(nextCandidate != null && root.data < nextCandidate.data){
+                return nextCandidate;
+            }
+            else{
+                return root;
+            }
         }
         else{
             return firstMaxKeyForGivenValue(root.rightNode,givenKey);

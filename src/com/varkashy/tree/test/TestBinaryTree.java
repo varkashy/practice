@@ -45,5 +45,7 @@ public class TestBinaryTree {
         BinaryTree.postOrderTraversal(root);
         System.out.println("Pre-Order");
         BinaryTree.preOrderTraversal(root);
+        System.out.println("level order traversal");
+        BinaryTree.levelOrderTraversal(root);
     }
 }

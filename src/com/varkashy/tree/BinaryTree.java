@@ -1,5 +1,9 @@
 package com.varkashy.tree;
 
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
 public class BinaryTree {
     int data;
     BinaryTree leftNode;
@@ -128,5 +132,23 @@ public class BinaryTree {
             root = root.leftNode;
         }
         return root;
+    }
+
+    public static void levelOrderTraversal(BinaryTree root){
+        Queue<BinaryTree> traversalQueue = new LinkedList<>();
+        if(root == null){
+            return;
+        }
+        traversalQueue.add(root);
+        while(!traversalQueue.isEmpty()){
+            BinaryTree currentNode = traversalQueue.poll();
+            System.out.println(currentNode.data);
+            if(currentNode.leftNode!=null){
+                traversalQueue.add(currentNode.leftNode);
+            }
+            if(currentNode.rightNode!=null){
+                traversalQueue.add(currentNode.rightNode);
+            }
+        }
     }
 }

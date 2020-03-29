@@ -4,12 +4,18 @@ import com.varkashy.tree.BinaryTree;
 
 public class TestBinaryTree {
     public static void main(String[] args) {
-        BinaryTree root = BinaryTree.createBinaryTreeFromArray(new int[]{1, 2, 3, 4, 5, 6, 7});
+        BinaryTree root = BinaryTree.createBinaryTreeFromArray(new int[]{1, 2, 3, 4, 15, 19, 27});
+        testNextMaxKey(root,18);
         testHeightOfBinaryTree(root);
         testTraversal(root);
         testSearch(root,new int[]{3,11});
         testInsertIntoBinaryTree(root, new int[]{-1,11});
         testDeleteFromBinaryTree(root, new int[]{4,7,11});
+    }
+
+    private static void testNextMaxKey(BinaryTree root, int givenKey) {
+        BinaryTree maxKeyForGivenValue = BinaryTree.firstMaxKeyForGivenValue(root, givenKey);
+        System.out.println(maxKeyForGivenValue.getData());
     }
 
     private static void testHeightOfBinaryTree(BinaryTree root) {

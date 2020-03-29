@@ -163,4 +163,25 @@ public class BinaryTree {
         return heightOfBinaryTree;
     }
 
+    public static BinaryTree firstMaxKeyForGivenValue(BinaryTree root, int givenKey){
+        if(root == null){
+            return root;
+        }
+        if(givenKey <= root.data){
+            BinaryTree nextCandidate = firstMaxKeyForGivenValue(root.leftNode,givenKey);
+           if(nextCandidate != null && root.data < nextCandidate.data){
+               return nextCandidate;
+           }
+           else{
+               return root;
+           }
+        }
+        else{
+            return firstMaxKeyForGivenValue(root.rightNode,givenKey);
+        }
+    }
+
+    public int getData() {
+        return this.data;
+    }
 }

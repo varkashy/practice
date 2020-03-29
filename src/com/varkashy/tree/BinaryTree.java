@@ -151,4 +151,16 @@ public class BinaryTree {
             }
         }
     }
+
+    public static int heightOfBinaryTree(BinaryTree root){
+        int heightOfBinaryTree = 0;
+        if(root == null){
+            return heightOfBinaryTree;
+        }
+        else{
+            heightOfBinaryTree = Math.max(heightOfBinaryTree(root.leftNode),heightOfBinaryTree(root.rightNode))+1;
+        }
+        return heightOfBinaryTree;
+    }
+
 }

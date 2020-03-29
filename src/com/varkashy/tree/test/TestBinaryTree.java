@@ -5,10 +5,16 @@ import com.varkashy.tree.BinaryTree;
 public class TestBinaryTree {
     public static void main(String[] args) {
         BinaryTree root = BinaryTree.createBinaryTreeFromArray(new int[]{1, 2, 3, 4, 5, 6, 7});
+        testHeightOfBinaryTree(root);
         testTraversal(root);
         testSearch(root,new int[]{3,11});
         testInsertIntoBinaryTree(root, new int[]{-1,11});
         testDeleteFromBinaryTree(root, new int[]{4,7,11});
+    }
+
+    private static void testHeightOfBinaryTree(BinaryTree root) {
+        int heightOfBinaryTree = BinaryTree.heightOfBinaryTree(root);
+        System.out.println(heightOfBinaryTree);
     }
 
     private static void testDeleteFromBinaryTree(BinaryTree root, int[] ints) {
